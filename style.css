@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Playfair+Display:wght@400;500;600&display=swap');
+
 :root{
     --clr-lightgreen: #606C38;
     --clr-darkgreen: #283618;
@@ -8,6 +10,10 @@
 
 body{
     background-color: var(--clr-white);
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    font-family: 'Playfair Display', sans-serif;
 }
 
 nav {
@@ -260,6 +266,7 @@ nav {
     min-height: 50vh;
     display: grid;
     place-items: center;
+    margin: 80px 0;
 
 }
 .slider {
@@ -270,6 +277,7 @@ nav {
     display: grid;
     place-items: center;
     overflow: hidden;
+    
     
 }
 .slide-track{
@@ -321,7 +329,7 @@ nav {
 
 
 #projects {
-    padding: 170px 0;
+    padding: 100px 0;
 }
 .project-list{
     display: grid;
