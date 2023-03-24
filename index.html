@@ -7,18 +7,10 @@
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
     <script src="https://kit.fontawesome.com/c1d3523387.js" crossorigin="anonymous"></script>
+    <script defer src="script.js"></script>
 </head>
 <body>
-    <nav>
-        <div class="logo">
-          <h2>Developer Portfolio</h2>
-        </div>
-        <input type="checkbox" id="nav-toggle" class="nav-toggle">
-        <label for="nav-toggle" class="nav-toggle-label">
-          <span></span>
-          <span></span>
-          <span></span>
-        </label>
+    <nav class="navbar">
         <ul class="nav-links">
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
@@ -29,9 +21,20 @@
 
       <section class="hero">
         <div class="hero-content">
-          <h1>Welcome to My Developer Portfolio</h1>
-          <p>I'm a passionate developer who loves to build digital solutions that make a difference. Check out my latest projects below.</p>
-          <button>View Portfolio</button>
+            <div class="me">
+                <h1 class="hello">hello. I am</h1>
+                <h1 class="name">Brandon Wohlwend.</h1>
+            </div>
+          <div class="typing-container">
+            <p>I'm a <span class="text"></span><span class="cursor">|</span></p>
+          </div>
+          <hr>
+          <div class="socialicons">
+            <i class="fa-brands fa-github"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-square-instagram"></i>
+          </div>
         </div>
       </section>
 
@@ -40,13 +43,13 @@
 
 <section class="about-section" id="about">
     <div class="container">
-      <h2>About Me</h2>
+      <h1 class="sub-title-white">About Me</h1>
       <div class="about-content">
         
         <div class="text">
-          <p>Hi there! I'm Your Name, a web developer based in Your City. I love building websites and applications that are both beautiful and functional.</p>
-          <p>I have experience working with a variety of technologies, including HTML, CSS, JavaScript, and frameworks such as React and Vue. I'm always eager to learn new skills and take on new challenges.</p>
-          <p>When I'm not coding, you can find me hiking, reading, or experimenting with new recipes in the kitchen.</p>
+          <p>Hi, I'm Brandon Wohlwend, a self-taught software developer with a Bachelor's in Mathematics. </p>
+          <p>Based in Germany, I'm passionate about data-driven solutions and building innovative projects in my free time. My background in mathematics and continuous learning mindset enable me to tackle complex problems with a unique approach. Let's connect and collaborate!</p>
+          <p>When I'm not coding, you can find me watching NFL/NBA, reading, or experimenting with new recipes in the kitchen.</p>
           <button>Download Resume</button>
         </div>
         <div class="image">
@@ -56,39 +59,39 @@
     </div>
   </section>
 
-  <section class="skills-section" id="skills">
+  <section class="skills-section" id="skills-section">
     <div class="container">
-      <h2>My Skills</h2>
+      <h1 class="sub-title-green">My Skills</h1>
       <div class="skills-content">
-        <div class="skill">
+        <div class="skill" data-animate="false">
           <div class="skill-name">HTML5</div>
         </div>
-        <div class="skill">
+        <div class="skill" data-animate="false">
           <div class="skill-name">CSS3</div>
         </div>
-        <div class="skill">
+        <div class="skill" data-animate="false">
           <div class="skill-name">JavaScript</div>
         </div>
-        <div class="skill">
+        <div class="skill" data-animate="false">
           <div class="skill-name">React JS</div>
         </div>
-        <div class="skill">
+        <div class="skill" data-animate="false">
           <div class="skill-name">Next JS</div>
         </div>
-        <div class="skill">
+        <div class="skill" data-animate="false">
             <div class="skill-name">Tailwind CSS</div>
           </div>
-        <div class="skill">
+        <div class="skill" data-animate="false">
             <div class="skill-name">Python</div>
         </div>
-          <div class="skill">
+          <div class="skill" data-animate="false">
             <div class="skill-name">Java</div>
         </div>
-        <div class="skill">
-            <div class="skill-name">Node.js</div>
+        <div class="skill" data-animate="false">
+            <div class="skill-name">MongoDB</div>
         </div>
-        <div class="skill">
-            <div class="skill-name">Node.js</div>
+        <div class="skill" data-animate="false">
+            <div class="skill-name">Flask</div>
         </div>
       </div>
     </div>
@@ -177,7 +180,7 @@
 <!-- Projects -->
 <div id="projects">
     <div class="container">
-        <h1 class="sub-title">My Work</h1>
+        <h1 class="sub-title-green">My Work</h1>
         <div class="project-list">
             <div class="project">
                 <img src="./assets/projects/crypto.png" alt="crypto">
