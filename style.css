@@ -61,39 +61,6 @@ h1{
 .nav-links li a:hover{
   color: var(--clr-lightgreen);
 }
-
-  
-  @media only screen and (max-width: 768px) {
-    .nav-links {
-      display: none;
-      flex-direction: column;
-      justify-content: flex-start;
-      align-items: flex-start;
-      width: 100%;
-      position: absolute;
-      top: 80px;
-      left: 0;
-      background-color: var(--clr-darkgreen);
-      padding: 10px;
-      transition: all 0.5s ease;
-
-      
-    }
-  
-    .nav-links li {
-      margin: 10px 0;
-    }
-  
-    .nav-toggle-label span {
-      margin: 5px 0;
-    }
-  
-    .nav-toggle:checked ~ .nav-links {
-      display: flex;
-    }
-
-    
-  }
   
 
   .hero {
@@ -151,7 +118,7 @@ hr{
   height: 1px;
   width: 85%;
   background-color: var(--clr-orange);
-  margin-top: 250px;
+  margin-top: 350px;
 }
 
 .socialicons{
@@ -562,6 +529,9 @@ form input, form textarea{
     display: flex;
     flex-direction: column;
   }
+  .image {
+    display: none;
+  }
  
 }
 
@@ -588,6 +558,14 @@ form input, form textarea{
   .text {
     flex: none;
     width: 100%;
+  }
+  .project-list {
+    display: flex;
+    flex-direction: column;
+  }
+  .skills-section{
+    padding: 20px 0;
+    margin-top: 40px;
   }
 }
 @media only screen and (max-width: 1200px) and (min-width: 1025px){
