@@ -500,8 +500,8 @@ form input, form textarea{
   .row{
     display: block;
   }
-  .me{
-    margin-top: 300px;
+  .navbar{
+    top: 80px;
   }
   .contact-left, .contact-right {
     flex-basis: 100%;
@@ -550,13 +550,27 @@ form input, form textarea{
     width: 400px;
   }
 }
-
+@media only screen and (max-width: 400px) {
+  .nav-links li a{
+    font-size: 12px;
+  }
+  .navbar{
+    top: 50px;
+  }
+  .me{
+    margin-top: 0;
+    text-align: center;
+  }
+  .skills-content{
+    text-align: center;
+  }
+}
 @media only screen and (max-width: 1024px) and (min-width: 769px){
   .nav-links li{
     margin: 0 50px;
   }
-  .me{
-    margin-top: 400px;
+  .navbar{
+    top: 80px;
   }
 
   .slide-track {
@@ -564,6 +578,9 @@ form input, form textarea{
   }
   .slide {
     height: 300px;
+  }
+  hr{
+    margin-top: 150px;
   }
   .about-content {
     flex-direction: column;
