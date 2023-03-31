@@ -70,7 +70,7 @@ h1{
     height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: center;
+    padding-top: 180px;
   }
   
   .hero-content {
@@ -118,7 +118,7 @@ hr{
   height: 1px;
   width: 85%;
   background-color: var(--clr-orange);
-  margin-top: 350px;
+  margin-top: 190px;
 }
 
 .socialicons{
@@ -172,7 +172,7 @@ button:hover {
 }
 
 .about-section {
-    padding: 20px 0;
+    padding: 10px 0;
 
 }
   
@@ -291,6 +291,7 @@ button {
     display: grid;
     place-items: center;
     margin: 80px 0;
+    margin-top: 180px;
 
 }
 .slider {
@@ -499,6 +500,9 @@ form input, form textarea{
   .row{
     display: block;
   }
+  .me{
+    margin-top: 300px;
+  }
   .contact-left, .contact-right {
     flex-basis: 100%;
     ;
@@ -534,10 +538,25 @@ form input, form textarea{
   }
  
 }
+@media only screen and (max-width: 1400px) and (min-width: 1201px){
+  .slider-section{
+    margin-top: 180px;
+  }
+  .slide-track{
+    width: calc(400px * 22);
+  }
+  .slide{
+    height: 250px;
+    width: 400px;
+  }
+}
 
 @media only screen and (max-width: 1024px) and (min-width: 769px){
   .nav-links li{
     margin: 0 50px;
+  }
+  .me{
+    margin-top: 400px;
   }
 
   .slide-track {
@@ -572,6 +591,7 @@ form input, form textarea{
   .nav-links li{
     margin: 0 80px;
   }
+
   .image img{
     height: 350px;
     width: 350px;
@@ -582,6 +602,16 @@ form input, form textarea{
   }
   .text button {
     margin-top: 25px;
+  }
+  .slider-section{
+    margin-top: 180px;
+  }
+  .slide-track{
+    width: calc(400px * 22);
+  }
+  .slide{
+    height: 250px;
+    width: 400px;
   }
 }
 @media only screen and (max-width: 480px){
