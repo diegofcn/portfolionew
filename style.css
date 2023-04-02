@@ -287,7 +287,19 @@ button {
 .skill:nth-child(9) { animation-delay: 1.8s; }
 .skill:nth-child(10) { animation-delay: 2s; }
 
-
+.resources{
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.resourcesbtn{
+  background-color: var(--clr-orange);
+}
+.resourcesbtn a{
+  text-decoration: none;
+  color: var(--clr-white);
+}
 .slider-section{
     min-height: 50vh;
     display: grid;

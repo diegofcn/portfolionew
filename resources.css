@@ -1,0 +1,27 @@
+.material{
+    padding-top: 180px;
+}
+.material h1{
+    font-size: 46px;
+    margin-bottom: 60px;
+    padding: 16px;
+    color: var(--clr-darkgreen);
+}
+.material h2 {
+    font-size: 20px;
+    color: var(--clr-darkgreen);
+}
+.part{
+    padding: 16px;
+}
+.part a{
+    text-decoration: none;
+    color: var(--clr-orange);
+}
+
+
+.table{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
