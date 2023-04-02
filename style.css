@@ -125,11 +125,13 @@ hr{
   display: flex;
   justify-content: space-around;
   font-size: 30px;
+  
 }
 .socialicons i{
   margin: 50px;
   border-radius: 50%;
   cursor: pointer;
+  color: var(--clr-darkgreen);
 }
 
 @keyframes blink {
@@ -428,6 +430,10 @@ button {
 }
 
 /* Contact Form */
+.contact{
+  background-color: var(--clr-darkgreen);
+  
+}
 .row{
     display: flex;
 }
@@ -443,7 +449,7 @@ button {
     margin-top: 30px;
 }
 .contact-left p i {
-    color: var(--clr-orange);
+    color: var(--clr-lightorange);
     margin-right: 15px;
     font-size: 25px;
 }
@@ -455,17 +461,20 @@ button {
     text-decoration: none;
     font-size: 30px;
     margin-right: 15px;
-    color: var(--clr-darkgreen);
+    color: var(--clr-lightorange);
     display: inline-block;
     transition: transform 0.5s;
 }
 .social-icons a:hover{
-    color: var(--clr-lightgreen);
+    color: var(--clr-orange);
     transform: translateY(-5px);
 }
 .contact-right form{
     width: 100%;
 
+}
+.contact h1, .contact p {
+  color: var(--clr-white);
 }
 form input, form textarea{
     width: 100%;
