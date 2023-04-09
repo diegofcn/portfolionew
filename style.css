@@ -437,7 +437,7 @@ button {
 .project:hover img{
     transform: translateZ(20px);
 }
-.project:hover .layer{
+.project:hover .layer, .project:active .layer{
     height: 100%;
 }
 
@@ -446,19 +446,13 @@ button {
   background-color: var(--clr-darkgreen);
   
 }
-.row{
-    display: flex;
+.contact-left h1{
+  font-size: 32px;
 }
 
-.contact-left{
-    flex-basis: 35%;
-}
-
-.contact-right{
-    flex-basis: 60%;
-}
 .contact-left p{
     margin-top: 30px;
+    font-size: 25px;
 }
 .contact-left p i {
     color: var(--clr-lightorange);
@@ -607,9 +601,14 @@ form input, form textarea{
     flex-direction: column;
     align-items: flex-start;
   }
-    
+  .skill{
+    margin: 10px 30px 10px 30px;
+  }
   .image {
     display: none;
+  }
+  .gaueCe2{
+    margin-top: 160px;
   }
     
   .text {
@@ -622,7 +621,10 @@ form input, form textarea{
   }
   .skills-section{
     padding: 20px 0;
-    margin-top: 40px;
+    margin-top: 60px;
+  }
+  .contact{
+    padding: 16px;
   }
 }
 @media only screen and (max-width: 1200px) and (min-width: 1025px){
