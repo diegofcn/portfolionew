@@ -582,8 +582,8 @@ form input, form textarea{
     margin-top: 0;
     text-align: center;
   }
-  .skills-content{
-    text-align: center;
+  .skills-section{
+    margin-top: 30px;
   }
 }
 @media only screen and (max-width: 1024px) and (min-width: 769px){
@@ -686,5 +686,34 @@ form input, form textarea{
   }
   .sub-title-green, .sub-title-white {
     font-size: 32px;
+  }
+  .layer{
+    font-size: 10px;
+  }
+  .layer h3{
+    font-size: 22px;
+    margin-bottom: 5px;
+  }
+  .skills-section {
+    margin-top: 70px;
+  }
+  .skill{
+    margin: 10px 30px 10px 30px;
+  }
+  #projects{
+    padding: 40px 0;
+  }
+  .layer a{
+    font-size: 18px;
+    line-height: 35px;
+    margin-top: 5px;
+    width: 30px;
+    height: 30px;
+  }
+  .contact{
+    padding: 16px;
+  }
+  .contact-left p{
+    font-size: 14px;
   }
 }
