@@ -444,16 +444,18 @@ button {
 /* Contact Form */
 .contact{
   background-color: var(--clr-darkgreen);
+  padding: 12px;
   
 }
 .contact-left h1{
-  font-size: 32px;
+  font-size: 36px;
 }
 
 .contact-left p{
     margin-top: 30px;
-    font-size: 25px;
+    font-size: 20px;
 }
+
 .contact-left p i {
     color: var(--clr-lightorange);
     margin-right: 15px;
@@ -553,6 +555,16 @@ form input, form textarea{
   }
  
 }
+@media only screen and (min-width: 1401px){
+  .slider-section{
+    margin-top: 100px;
+  }
+  .hero-content{
+    margin-top: 120px;
+  }
+  
+}
+
 @media only screen and (max-width: 1400px) and (min-width: 1201px){
   .slider-section{
     margin-top: 180px;
