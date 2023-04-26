@@ -321,7 +321,7 @@ button {
 }
 .slide-track{
     display: flex;
-    width: calc(600px * 22);
+    width: calc(600px * 30);
     animation: scroll 40s linear infinite;
 }
 
@@ -330,7 +330,7 @@ button {
         transform: translateX(0);
     }
     100% {
-        transform: translateX(calc(-250px * 9));
+        transform: translateX(calc(-250px * 30));
     }
     
 }
