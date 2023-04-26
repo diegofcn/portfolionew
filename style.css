@@ -322,7 +322,7 @@ button {
 .slide-track{
     display: flex;
     width: calc(600px * 30);
-    animation: scroll 40s linear infinite;
+    animation: scroll 80s linear infinite;
 }
 
 @keyframes scroll {
@@ -330,7 +330,7 @@ button {
         transform: translateX(0);
     }
     100% {
-        transform: translateX(calc(-250px * 30));
+        transform: translateX(calc(-450px * 30));
     }
     
 }
@@ -533,7 +533,7 @@ form input, form textarea{
   }
   .slide-track{
     
-    width: calc(300px * 22);
+    width: calc(300px * 30);
     
 }
 .slide {
@@ -577,7 +577,7 @@ form input, form textarea{
     margin-top: 180px;
   }
   .slide-track{
-    width: calc(400px * 22);
+    width: calc(400px * 30);
   }
   .slide{
     height: 250px;
@@ -608,7 +608,7 @@ form input, form textarea{
   }
 
   .slide-track {
-    width: calc(400px * 22);
+    width: calc(400px * 30);
   }
   .slide {
     height: 300px;
@@ -666,7 +666,7 @@ form input, form textarea{
     margin-top: 180px;
   }
   .slide-track{
-    width: calc(400px * 22);
+    width: calc(400px * 30);
   }
   .slide{
     height: 250px;
