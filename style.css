@@ -354,9 +354,16 @@ button {
     transform: translateZ(10px);
     
 }
+.certbtn{
+  margin-top: 50px;
+}
+.cerbtn{
+  color: var(--clr-white);
+  text-decoration: none;
+}
 
 .gaueCe2 {
-    margin-top: 90px;
+    margin-top: 65px;
     position: absolute;
     left: 0px;
     width: 100%;
