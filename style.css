@@ -398,6 +398,10 @@ button {
     transition: transform 1s;
 }
 
+.project-border{
+  border: 1px solid var(--clr-darkgreen);
+}
+
 .layer {
     width: 100%;
     height: 0;
